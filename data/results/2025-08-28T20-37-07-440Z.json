@@ -1,0 +1,21 @@
+[
+  {
+    "datetime": "2025-08-28T20:37:07.440Z",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        28.0473,
+        -26.2041
+      ]
+    },
+    "type": "Property & Financial Crimes",
+    "newsID": "fallback-1756413427440",
+    "severity": 3,
+    "keywords": [
+      "safety",
+      "general",
+      "area"
+    ],
+    "summary": "General safety information for help me  area."
+  }
+]

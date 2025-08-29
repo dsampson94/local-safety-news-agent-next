@@ -1,0 +1,21 @@
+[
+  {
+    "datetime": "2025-08-27T07:16:45.364Z",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        28.042,
+        -26.1464
+      ]
+    },
+    "type": "Property & Financial Crimes",
+    "newsID": "fallback-1756279005364",
+    "severity": 3,
+    "keywords": [
+      "safety",
+      "general",
+      "area"
+    ],
+    "summary": "General safety information for Safety incidents in Rosebank area."
+  }
+]

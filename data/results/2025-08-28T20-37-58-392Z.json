@@ -1,0 +1,23 @@
+[
+  {
+    "datetime": "2025-08-28T20:37:58.392Z",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        28.0473,
+        -26.2041
+      ]
+    },
+    "type": "Property & Financial Crimes",
+    "newsID": "geo-1756413478392-0",
+    "severity": 3,
+    "keywords": [
+      "theft",
+      "stolen",
+      "farm",
+      "vehicle",
+      "reported"
+    ],
+    "summary": "Farm vehicle theft reported. Tractor stolen from agricultural property."
+  }
+]
