@@ -2,19 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 import { geocodingTool, dataExtractionTool, executeTool } from "@/lib/tools";
-
-interface SafetyIncident {
-  datetime: string;
-  coordinates: {
-    type: "Point";
-    coordinates: [number, number];
-  };
-  type: string;
-  newsID: string;
-  severity: number;
-  keywords: string[];
-  summary: string;
-}
+import { SafetyIncident } from "@/lib/schema";
 
 export async function POST(request: NextRequest) {
   try {

@@ -1,0 +1,21 @@
+[
+  {
+    "datetime": "2025-09-02T08:18:58.656Z",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        28.0473,
+        -26.2041
+      ]
+    },
+    "type": "Property & Financial Crimes",
+    "newsID": "fallback-1756801138656",
+    "severity": 3,
+    "keywords": [
+      "safety",
+      "general",
+      "area"
+    ],
+    "summary": "General safety information for hijacking johannesburg area."
+  }
+]

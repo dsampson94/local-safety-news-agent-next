@@ -3,24 +3,96 @@ import { SafetyIncident } from './schema';
 
 export const mockCrimeReports: SafetyIncident[] = [
   // Sandton CBD
-  {
-    datetime: "2025-08-25T14:30:00Z",
-    coordinates: { type: "Point", coordinates: [28.0567, -26.1076] },
-    type: "Property & Financial Crimes",
-    newsID: "sandton_001",
-    severity: 4,
-    keywords: ["armed robbery", "Sandton", "ATM"],
-    summary: "Armed robbery at Sandton City ATM. Three suspects approached victim withdrawing cash."
-  },
-  {
-    datetime: "2025-08-25T22:15:00Z", 
-    coordinates: { type: "Point", coordinates: [28.0578, -26.1056] },
-    type: "Violent Crimes",
-    newsID: "sandton_002", 
-    severity: 3,
-    keywords: ["mugging", "Sandton", "evening"],
-    summary: "Pedestrian mugged near Sandton Gautrain station. Phone and wallet stolen by two suspects."
-  },
+    {
+      datetime: "2025-08-25T14:30:00Z",
+      coordinates: { type: "Point", coordinates: [28.0567, -26.1076] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_001",
+      severity: 4,
+      keywords: ["armed robbery", "Sandton", "ATM"],
+      summary: "Armed robbery at Sandton City ATM. Three suspects approached victim withdrawing cash."
+    },
+    {
+      datetime: "2025-08-25T22:15:00Z", 
+      coordinates: { type: "Point", coordinates: [28.0567, -26.1076] },
+      type: "Violent Crimes",
+      newsID: "sandton_002", 
+      severity: 3,
+      keywords: ["mugging", "Sandton", "evening"],
+      summary: "Pedestrian mugged near Sandton Gautrain station. Phone and wallet stolen by two suspects."
+    },
+    {
+      datetime: "2025-08-26T09:00:00Z",
+      coordinates: { type: "Point", coordinates: [28.0580, -26.1080] },
+      type: "Cyber & Communication Crimes",
+      newsID: "sandton_003",
+      severity: 2,
+      keywords: ["phishing", "Sandton", "bank"],
+      summary: "Phishing scam reported at Sandton bank branch. Customer credentials compromised."
+    },
+    {
+      datetime: "2025-08-26T12:30:00Z",
+      coordinates: { type: "Point", coordinates: [28.0550, -26.1100] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_004",
+      severity: 5,
+      keywords: ["car theft", "Sandton", "parking lot"],
+      summary: "Luxury car stolen from Sandton City parking lot. Security footage under review."
+    },
+    {
+      datetime: "2025-08-26T15:45:00Z",
+      coordinates: { type: "Point", coordinates: [28.0600, -26.1060] },
+      type: "Violent Crimes",
+      newsID: "sandton_005",
+      severity: 4,
+      keywords: ["assault", "Sandton", "nightclub"],
+      summary: "Assault outside Sandton nightclub. Victim hospitalized, suspects fled scene."
+    },
+    {
+      datetime: "2025-08-26T18:00:00Z",
+      coordinates: { type: "Point", coordinates: [28.0540, -26.1090] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_006",
+      severity: 3,
+      keywords: ["shoplifting", "Sandton", "mall"],
+      summary: "Shoplifting incident at Sandton City Mall. Suspect apprehended by security."
+    },
+    {
+      datetime: "2025-08-26T20:10:00Z",
+      coordinates: { type: "Point", coordinates: [28.0570, -26.1050] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_007",
+      severity: 2,
+      keywords: ["burglary", "Sandton", "apartment"],
+      summary: "Apartment burglary in Sandton. Entry through balcony, electronics stolen."
+    },
+    {
+      datetime: "2025-08-26T22:30:00Z",
+      coordinates: { type: "Point", coordinates: [28.0590, -26.1070] },
+      type: "Public Order & Social Crimes",
+      newsID: "sandton_008",
+      severity: 1,
+      keywords: ["public disturbance", "Sandton", "street"],
+      summary: "Public disturbance reported on Maude Street, Sandton. Police responded quickly."
+    },
+    {
+      datetime: "2025-08-27T01:00:00Z",
+      coordinates: { type: "Point", coordinates: [28.0530, -26.1085] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_009",
+      severity: 2,
+      keywords: ["vehicle break-in", "Sandton", "hotel"],
+      summary: "Vehicle break-in at Sandton hotel parking. Laptop stolen from car."
+    },
+    {
+      datetime: "2025-08-27T03:15:00Z",
+      coordinates: { type: "Point", coordinates: [28.0555, -26.1065] },
+      type: "Property & Financial Crimes",
+      newsID: "sandton_010",
+      severity: 3,
+      keywords: ["credit card fraud", "Sandton", "restaurant"],
+      summary: "Credit card fraud at Sandton restaurant. Multiple victims reported."
+    },
 
   // Parkhurst
   {
